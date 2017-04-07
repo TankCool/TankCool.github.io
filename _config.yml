@@ -1,1 +1,5 @@
-theme: jekyll-theme-modernist
+title: 回眸一脚
+description: 干了这碗鸡汤，继续上路
+show_downloads: false
+google_analytics:
+theme:
