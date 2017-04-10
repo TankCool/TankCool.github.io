@@ -6,11 +6,24 @@ java是一门成熟且强大的语言，是程序员必不可少的重要技能�
 
 #### 8种基础数据类型
 	byte short int long float double boolean char
+	
+对应的引用类型
+
+	Byte Short Integer Long Float Double Boolean Character	
 
 #### 静态方法和实例方法的区别
 * 静态方法不能使用this关键字，实例方法可以
 * 调用静态方法不需要创建对象，而实例方法则需要先创建对象
 * 静态方法只能访问静态成员，实例方法可以访问静态成员和实例成员
+
+#### 不允许创建泛型数组
+	Item[] item = new Item[n];//Error
+	
+应该这么处理
+
+	Item[] item = (Item[]) new Object[n];//Warn but good to go
+
+由于Java使用擦除(erasure)实现的泛型，在运行时无法知道确切的类型信息，因此不能创建相应类型的数组.
 
 未完待续
 
