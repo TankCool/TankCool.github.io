@@ -75,7 +75,7 @@ class MyHelloWorld {
 ### 小作业来啦$_$
 
 1. 编写一个程序 TenTimeGoodGoodStudy.java，打印"好好学习，天天向上"10次！
-2. 编写一个程序 BestHelloWorld.java，在传入三个人的名字，并倒序打印输出。例如输入
+2. 编写一个程序 BestHelloWorld.java，再传入三个人的名字，并倒序打印输出。例如输入
 
 		java BestHelloWorld Justin Alice Tom
 
